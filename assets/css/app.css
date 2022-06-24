@@ -1,12 +1,17 @@
-body {
+.app {
     background-color: #1D232A;
     font-family: 'Open Sans', 'icones', sans-serif;
     color: #fff;
 }
 
 @media screen and (min-width: 1440px) {
-    body {
+    .app {
         display: grid;
         grid-template-columns: auto 1fr;
     }
+}
+
+@font-face {
+    font-family: 'icones';
+    src: url(../font/icones.ttf);
 }

@@ -1,0 +1,10 @@
+.titulo-pagina {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+@media screen and (min-width: 1440px) {
+    .titulo-secao {
+        grid-column: span 4;
+    }
+}
