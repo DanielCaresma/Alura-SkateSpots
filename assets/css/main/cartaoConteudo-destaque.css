@@ -1,7 +1,6 @@
-.cartao__conteudo {
+.cartao__conteudo-destaque {
     padding: 16px;
     display: grid;
     grid-template-columns: auto 1fr;
-    grid-template-rows: auto 42px auto;
     gap: 16px;
 }

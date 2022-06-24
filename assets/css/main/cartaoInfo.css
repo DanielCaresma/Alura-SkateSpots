@@ -13,3 +13,9 @@
     content: "\e90f";
     margin-right: 8px;
 }
+
+
+.cartao__info--valor::before {
+    content: "\e905";
+    margin-right: 8px;
+}
