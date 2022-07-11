@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HZC | Picos</title>
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap">
+    <link rel="stylesheet" href="./assets/css/app.css">
+    <link rel="stylesheet" href="./assets/css/cabecalho/cabecalho.css">
+    <link rel="stylesheet" href="./assets/css/cabecalho/cabecalho-menu.css">
+    <link rel="stylesheet" href="./assets/css/cabecalho/cabecalho-logo.css">
+    <link rel="stylesheet" href="./assets/css/cabecalho/cabecalho-perfil.css">
+    <link rel="stylesheet" href="./assets/css/cabecalho/cabecalho-notificacao.css">
+    <link rel="stylesheet" href="./assets/css/menu-lateral/menu-lateral.css">
+    <link rel="stylesheet" href="./assets/css/menu-lateral/menu-lateral--ativo.css">
+    <link rel="stylesheet" href="./assets/css/menu-lateral/menuLateral-logo.css">
+    <link rel="stylesheet" href="./assets/css/menu-lateral/menuLateral-link.css">
+    <link rel="stylesheet" href="./assets/css/main/tituloPagina.css">
+    <link rel="stylesheet" href="./assets/css/picos.css">
+    <link rel="stylesheet" href="./assets/css/main/tituloPagina.css">
+    <link rel="stylesheet" href="./assets/css/main/cartao.css">
+    <link rel="stylesheet" href="./assets/css/main/cartaoRecentes.css">
+</head>
+<body class="app">
+    <header class="cabecalho">
+        <button class="cabecalho__menu" aria-label="Menu"><i></i></button>
+        <img src="./assets/img/logo.svg" alt="Logotipo da HZC" class="cabecalho__logo">
+        <p class="cabecalho__perfil">Bruno Lopes</p>
+        <button class="cabecalho__notificacao" aria-label="Notificação"><i></i></button>
+    </header>
+
+    <nav class="menu-lateral">
+        <img src="./assets/img/logo.svg" alt="Logotipo da HZC" class="menu-lateral__logo">
+        <a href="./index.html" class="menu-lateral__link menu-lateral__link--inicio ">Início</a>
+        <a href="#" class="menu-lateral__link menu-lateral__link--videos">Vídeos</a>
+        <a href="./picos.html" class="menu-lateral__link menu-lateral__link--picos menu-lateral__link--ativo">Picos</a>
+        <a href="#" class="menu-lateral__link menu-lateral__link--integrantes">Integrantes</a>
+        <a href="#" class="menu-lateral__link menu-lateral__link--camisas">Camisas</a>
+        <a href="#" class="menu-lateral__link menu-lateral__link--pinturas">Pinturas</a>
+    </nav>
+    
+    <main class="conteudo-picos">
+        <h2 class="titulo-pagina">Picos</h2>
+        <img src="./assets/img/mapa-picos.png" alt="Localização dos Picos" class="mapa__picos">
+
+        <article class="cartao cartao--recentes videos-recentes">
+            <h3 class="cartao__titulo">Vídeos recentes</h3>
+            <a href="#" class="cartao__link">Ver todos</a>
+            <ul class="cartao__lista">
+                <li class="cartao__item">
+                    <img src="./assets/img/miniatura_1.png" alt="" class="cartao__item-thumbnail">
+                    <h4 class="cartao__item-titulo">HZC - Love machine</h4>
+                    <p class="cartao__item-perfil">Júlia Fonseca</p>
+                </li>
+                <li class="cartao__item">
+                    <img src="./assets/img/miniatura_2.png" alt="" class="cartao__item-thumbnail">
+                    <h4 class="cartao__item-titulo">HZC - Vol.3</h4>
+                    <p class="cartao__item-perfil">Júlia Fonseca</p>
+                </li>
+                <li class="cartao__item">
+                    <img src="./assets/img/miniatura_3.png" alt="" class="cartao__item-thumbnail">
+                    <h4 class="cartao__item-titulo">HZC - Pescaria na Urca</h4>
+                    <p class="cartao__item-perfil">Júlia Fonseca</p>
+                </li>
+                <li class="cartao__item">
+                    <img src="./assets/img/miniatura_4.png" alt="" class="cartao__item-thumbnail">
+                    <h4 class="cartao__item-titulo">Vidalocagi - Guerreiros do Asfalto</h4>
+                    <p class="cartao__item-perfil">Júlia Fonseca</p>
+                </li>
+                <li class="cartao__item">
+                    <img src="./assets/img/miniatura_5.png" alt="" class="cartao__item-thumbnail">
+                    <h4 class="cartao__item-titulo">Vidalocagi - Não importa o nível</h4>
+                    <p class="cartao__item-perfil">Júlia Fonseca</p>
+                </li>
+            </ul>
+        </article>
+    </main>
+
+    <script src="./index.js"></script>
+</body>
+</html>
