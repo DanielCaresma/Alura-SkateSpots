@@ -1,19 +1,18 @@
 .menu-lateral {
     display: flex;
     background-color: #15191C;
-    height: calc(100vh);
+    height: 100vh;
     flex-direction: column;
-    width: 75vw;
+    width: 200px;
 
     position: absolute;
     left: -100vw;
     transition: .25s;
 }
 
-@media screen and (min-width:1440px) {
+@media screen and (min-width:820px) {
     .menu-lateral {
         position: static;
-        width: 200px;
         grid-column: 1;
         grid-row: 1 / span 2;
     }
