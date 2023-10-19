@@ -22,14 +22,15 @@
 
 .cartao__botao--destaque {
     width: 100%;
-    grid-column: 2;
+    grid-column-start: 1;
+    grid-column-end: 3;
 }
 
 .cartao__botao--destaque::before {
     margin-right: 8px;
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 820px) {
     .cartao__botao--destaque {
         grid-column: auto;
         padding: 16px 8px;
