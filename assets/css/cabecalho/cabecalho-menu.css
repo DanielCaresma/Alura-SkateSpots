@@ -3,7 +3,7 @@
     font-size: 24px;
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 820px) {
     .cabecalho__menu {
         display: none;
     }

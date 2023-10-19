@@ -4,7 +4,7 @@
     color: #fff;
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 820px) {
     .app {
         display: grid;
         grid-template-columns: auto 1fr;
