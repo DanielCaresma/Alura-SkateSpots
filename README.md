@@ -1,103 +1,42 @@
-# Guia de estilos
+<h1 align="center"> HZC </h1>
 
-Toda a estilização que será usada no projeto dentro do figma.
+<p align="center">
+HZC é um site voltado ao publico da cultura do skate onde podem assistir a vídeos de manobras, ouvir músicas, comprar camisetas e verificar os melhores picos de skate<br/>
+</p>
 
-[Link do projeto no figma](https://www.figma.com/file/ibWktwVpnog76rMYOdVhks/Dispondo-elementos-com-flexbox-e-grid?node-id=54%3A2358)
+<p align="center">
+  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-layout">Layout</a>
+</p>
 
-## Fonte
+<br>
 
-```html
-Open Sans:
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap">
-```
+<p align="center">
+  <img alt="Image not found" src="assets/img/thumbnail.png" width="100%">
+</p>
 
-## Cores
+## 🚀 Tecnologias
 
-corpo: `#1D232A`
+Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-cabeçalho: `#1D232A`
+- HTML e CSS
+- JavaScript
+- Figma
 
-cabeçalho mobile: `#15191C`
+## 💻 Projeto
 
-menu lateral: `#15191C`
+HZC foi um projeto criado durante um curso para estudar disposição CSS com flexbox e grid.
 
-cartão: `#2C343A`
+## 🦾 Novas habilidades adquiridas com o projeto
 
-fonte: `#FFFFFF`
+- Utilização do EMMET
+- Flexbox e suas propriedades
+- Como mostrar e esconder um menu lateral com JavaScript
+- Grid e suas propriedades
 
-fonte alternativa: `#95999C`
+[Visite o projeto online](https://alura-skate-spots.vercel.app/)
 
-links: `#0480DC`
+## 🔖 Layout
 
-botão: `#0480DC`
-
-sombras: `0px 4px 4px rgba(0, 0, 0, 0.16)`
-
-## Ícones
-
-Estão dentro do arquivo de fonte `icones.ttf`. Para usar, primeiro importe a fonte no projeto usando `@font-face` e depois utilize os códigos abaixo para exibir o ícone.
-
-```css
-@font-face {
-    font-family: 'icones';
-    src: url(../font/icones.ttf);
-}
-```
-
-> Cuidado com a localização do arquivo `icones.ttf`
-
-Camisas = `\e900`
-
-Carrinho = `\e901`
-
-Inicio = `\e902`
-
-Integrantes = `\e903`
-
-Menu = `\e904`
-
-Moeda = `\e905`
-
-Notificação = `\e906`
-
-Pico = `\e908`
-
-Picos = `\e909`
-
-Pinturas = `\e90a`
-
-Play = `\e90b`
-
-Relogio = `\e90c`
-
-Seta-baixo = `\e90d`
-
-Videos = `\e90e`
-
-Visualizacao = `\e90f`
-
-## Espaçamentos
-
-Espaço interno botão: `8px`
-
-Espaço entre elementos do botão: `8px`
-
-Espaço entre elementos: `16px/8px`
-
-Espaçamento interno do corpo: `16px`
-
-Espaçamento entre o título do cartão de recentes e seus itens: `24px`
-
-## Tamanhos
-
-Tamanho do dispositivo mobile: `360px`
-
-Tamanho do dispositivo desktop: `1440px`
-
-Largura máxima do conteúdo principal: `1120px`
-
-Largura máxima de um cartão desktop: `256px`
-
-Altura mínima de um cartão: `320px`
+Para acessar o layout do figma [clique aqui](https://www.figma.com/file/ibWktwVpnog76rMYOdVhks/Dispondo-elementos-com-flexbox-e-grid?type=design&mode=design&t=d71nXM6EqvkltfkG-0)
